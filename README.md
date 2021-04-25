@@ -6,8 +6,7 @@
 </div>
 
 # Sobre
-
-Vários lugares usam plantas, seja em casa ou no comércio, e hoje em dia o ser humano está cada vez mais ocupado, então acaba esquecendo de regar as plantas. O Plantmanager veio resolver este problema, com este aplicativo você saberá quando e como regar suas plantas !!
+ O Plantmanager veio resolver este problema, com este aplicativo você saberá quando e como regar suas plantas 🌱.
 
 <div align="center">
   <img src="assets/cover.png" width="700" /> 
@@ -28,37 +27,31 @@ Vários lugares usam plantas, seja em casa ou no comércio, e hoje em dia o ser 
   - [EditorConfig](https://editorconfig.org/)
 
 
-## 💻 Getting started
+## 💻  Começar
 
-### Requirements
+### Requisitos
 
 - [Node.js](https://nodejs.org/en/)
 - [Expo](https://expo.io/)  
 - [Yarn](https://classic.yarnpkg.com/) or [NPM](https://www.npmjs.com/)
 
-### Installing and running the project
+### Instalação e configuração do Projeto.
 
-*Clone the project and access the folder*
+*Clone o projeto e acesse a pasta*
 
 ```bash
 $ git clone https://github.com/MicaelaAndrade/PlantManager
 $ cd plantmanager
 ```
 
-*Follow the steps below*
+*Siga os passos abaixo*
 
 ```bash
-# Install the dependencies
+# Instale as dependências
 $ yarn install
 
-# Make a copy of '.env.example' to '.env'
-# and set with YOUR environment variables.
-$ cp .env.example .env
-
-# Finally, run the api service in a development environment :)
-$ yarn start
-
-# Well done, PlantManager is started!
+# Inicie o projeto
+$ expo start
 ```
 <br>
 
