@@ -6,7 +6,7 @@
 </div>
 
 # Sobre
- O Plantmanager veio resolver este problema, com este aplicativo você saberá quando e como regar suas plantas 🌱.
+Com este aplicativo você saberá quando e como regar suas plantas 🌱.
 
 <div align="center">
   <img src="assets/cover.png" width="700" /> 
