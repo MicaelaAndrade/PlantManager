@@ -5,7 +5,7 @@
   
 </div>
 
-# 👀 Sobre
+# Sobre
 
 Vários lugares usam plantas, seja em casa ou no comércio, e hoje em dia o ser humano está cada vez mais ocupado, então acaba esquecendo de regar as plantas. O Plantmanager veio resolver este problema, com este aplicativo você saberá quando e como regar suas plantas !!
 
@@ -41,7 +41,7 @@ Vários lugares usam plantas, seja em casa ou no comércio, e hoje em dia o ser 
 *Clone the project and access the folder*
 
 ```bash
-$ git clone 
+$ git clone https://github.com/MicaelaAndrade/PlantManager
 $ cd plantmanager
 ```
 
