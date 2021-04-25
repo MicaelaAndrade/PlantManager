@@ -5,7 +5,7 @@
   
 </div>
 
-# 👀 About
+# 👀 Sobre
 
 Vários lugares usam plantas, seja em casa ou no comércio, e hoje em dia o ser humano está cada vez mais ocupado, então acaba esquecendo de regar as plantas. O Plantmanager veio resolver este problema, com este aplicativo você saberá quando e como regar suas plantas !!
 
@@ -17,7 +17,7 @@ Vários lugares usam plantas, seja em casa ou no comércio, e hoje em dia o ser 
 <br>
 
 
-# 🚀 Technologies
+# 🚀 Tecnologias
 
   - [Node.js](https://nodejs.org/en/)
   - [Expo](https://expo.io/)  
