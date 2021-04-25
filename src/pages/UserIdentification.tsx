@@ -7,9 +7,12 @@ import {
   Text,
   TextInput,
   KeyboardAvoidingView,
-  Platform
+  Platform,
+  Alert
 } from "react-native";
 import { useNavigation } from '@react-navigation/native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
 import { Button } from '../components/Button'
 
 import colors from '../styles/colors';
@@ -39,11 +42,24 @@ export function UserIdentification() {
     setName(value)
   }
 
+  // Navegação entre as paginas. | // Identificar usuário digitou nome no campo 
+  async function handleSubmit() {
+    if (!name)
+      return Alert.alert('Me diz como chamar você 🥲')
 
-
-  // Navegação entre as paginas.
-  function handleSubmit() {
-    navigation.navigate('Confirmation')
+    try {
+      // Refatorando paginas de salvamento
+      await AsyncStorage.setItem('@plantmanager:user', name);
+      navigation.navigate('Confirmation', {
+        title: 'Prontinho',
+        subtitle: 'Agora vamos começar a cuidar das suas plantinhas com muito cuidado.',
+        buttonTitle: 'Começar',
+        emoji: 'smile',
+        nextScreen: 'PlantSelect',
+      })
+    } catch {
+      Alert.alert('Não foi possivel salvar o seu nome.🥲')
+    }
   }
 
   return (
