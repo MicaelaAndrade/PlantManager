@@ -58,7 +58,7 @@ export function UserIdentification() {
         nextScreen: 'PlantSelect',
       })
     } catch {
-      Alert.alert('Não foi possivel salvar o seu nome.🥲')
+      Alert.alert('Não foi possivel salvar o seu nome. 🥲')
     }
   }
 
@@ -72,7 +72,7 @@ export function UserIdentification() {
           <View style={styles.form}>
             <View style={styles.header}>
               <Text style={styles.emoji}>
-                {isFilled ? '😄' : '😀' //Quando o campo estiver preenchido, fará a troca de imojis na tela
+                {isFilled ? ' 😄 ' : ' 😀' //Quando o campo estiver preenchido, fará a troca de imojis na tela
                 }
               </Text>
 
